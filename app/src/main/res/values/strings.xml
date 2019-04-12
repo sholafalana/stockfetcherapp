@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Stock and Forex Fetcher</string>
+
+
+    <string name="no_connectivity_error">Error, No Internet Connectivity Detected Please Reconnect </string>
+    <string name="refresh">Refresh</string>
+    <string name="currency_title">Live Market Rate</string>
+
+
+    <string-array name="currency_arrays">
+        <item>TYPE</item>
+        <item>EURUSD</item>
+        <item>GBPJPY</item>
+        <item>AUDUSD</item>
+        <item>GBPUSD</item>
+        <item>EURGBP</item>
+        <item>EURJPY</item>
+        <item>USDCAD</item>
+        <item>USDCHF</item>
+        <item>USDJPY</item>
+        <item>GBPAUD</item>
+        <item>EURAUD</item>
+        <item>AUDNZD</item>
+        <item>GBPCAD</item>
+        <item>EURCAD</item>
+        <item>NZDUSD</item>
+        <item>AUDCAD</item>
+        <item>NZDCAD</item>
+    </string-array>
+
+
+    <string-array name="pivot_arrays">
+        <item>Standard</item>
+        <item>Fibonacci</item>
+        <item>Woodie</item>
+        <item>Camarilla</item>
+        <item>Demark</item>
+    </string-array>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>Profit Trades</item>
+        <item>Lost Trades</item>
+        <item>BreakEven</item>
+    </string-array>
+
+
+    <string-array name="resource_names">
+        <item>An introduction to Forex Trading</item>
+        <item>Metatrader4 Platform</item>
+        <item>Market Hours</item>
+        <item>Strategy: Using the RSI</item>
+        <item>Strategy: Using the Fibonacci</item>
+        <item>Strategy: Identifying The Trend</item>
+        <item>Strategy: Using the Scalping System</item>
+        <item>High Frequency Trading</item>
+
+    </string-array>
+
+    <string name="edit_task_description">Describe your Event&#8230;</string>
+    <string name="priority_string">Priority</string>
+
+    <string name="profit_priority">Profit</string>
+    <string name="loss_priority">Loss</string>
+    <string name="breakeven_priority">BreakEven</string>
+
+    <string name="add_button">Add</string>
+    <string name="update_button">Update</string>
+    <string name="appwidget_text">Get Live Market Rates</string>
+    <string name="appwidget_header">Quote Widget</string>
+    <string name="quote_text">Quote</string>
+    <string name="base">Base</string>
+    <string name="XXX">EUR</string>
+    <string name="XX2">USD</string>
+    <string name="rate_text">Rate [Base : Quote unit ]</string>
+    <string name="rate">0.0000</string>
+    <string name="amount">Amount</string>
+    <string name="amount_enter">Enter Amount To Convert</string>
+    <string name="a_symbol">Symbol</string>
+    <string name="a_daily_open">Day Open</string>
+    <string name="a_daily_high">Day High</string>
+    <string name="a_daily_close">Live Rate</string>
+    <string name="a_daily_low">Day Low</string>
+    <string name="a_previous_close">Last Close</string>
+    <string name="a_daily_range">Range</string>
+    <string name="a_price_change">Change</string>
+    <string name="a_volume">Deals</string>
+    <string name="a_last_refreshed">Last Refreshed</string>
+    <string name="c_symbol">SYMBOL</string>
+    <string name="a_price">Price</string>
+    <string name="c_fetch">FETCH RATE</string>
+    <string name="c_calc">CALCULATE</string>
+    <string name="bar_main_title">Search Stocks and Forex</string>
+    <string name="sub_title">Market Quote and Trading Resources</string>
+    <string name="live_market_rate">Live Market Rate</string>
+    <string name="generate_pivot">Generate Pivot</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="trade_journal">Trade Journal</string>
+    <string name="trading_resources">Trading Resources</string>
+    <string name="line_graph">LineGraph</string>
+    <string name="bar_graph">BarGraph</string>
+    <string name="vol_mills">Volume (in Millions)</string>
+    <string name="data_cleared">Data Cleared</string>
+    <string name="standard_toast">Standard Pivot Calculated</string>
+    <string name="fibo_toast">Fibonacci Pivot Calculated</string>
+    <string name="woodie_toast">Woodie pivot Calculated</string>
+    <string name="cama_toast">Camarilla Pivot Calculated</string>
+    <string name="demark_toast">Demarks Pivot Calculated</string>
+    <string name="clear_all_text">0.00000</string>
+    <string name="pivot_settitle">Pivot Calculator</string>
+    <string name="daily_request">FX_DAILY</string>
+    <string name="net_error_toast">Network Not Reachable</string>
+    <string name="type">Type</string>
+    <string name="prev_d">Previous Day</string>
+    <string name="open_p">Open Price</string>
+    <string name="close_p">Close Price</string>
+    <string name="get_price">Fetch Price</string>
+    <string name="res_3">Resistance 3</string>
+    <string name="res_2">Resistance 2</string>
+    <string name="res_1">Resistance 1</string>
+    <string name="piv_t">Pivot</string>
+    <string name="sup_1">Support 1</string>
+    <string name="sup_2">Support 2</string>
+    <string name="sup_3">Support 3</string>
+    <string name="high_p">High Price</string>
+    <string name="low_p">Low Price</string>
+    <string name="calc2">Calculate</string>
+    <string name="welcome_message">Welcome Message</string>
+    <string name="stock_and_forex_fetcher">Stock and Forex Fetcher</string>
+    <string name="set_widget">Set Widget</string>
+    <string name="rate_header">Market_rate</string>
+    <string name="wid_msg">Tap to Get Rate Now</string>
+    <string name="task_date">11/11/1111</string>
+    <string name="task_desc">Description</string>
+    <string name="set_rate">Set Rate</string>
+    <string name="base_format_xxx">Base Format XXX</string>
+    <string name="quote_format_xxx">Quote Format XXX</string>
+    <string name="amount_hint">Quantity</string>
+    <string name="GetCurrency">Get Currency List</string>
+    <string name="addJournal">Add Trade Events</string>
+    <string name="button_one">1</string>
+    <string name="Curr_display">CurrencyDisplayActivity</string>
+    <string name="Button_click">Button</string>
+    <string name="graph_title">Sentiment Analysis</string>
+    <string name="cuur_ex_title">Currency Calculator</string>
+    <string name="ja_title">Add Trade Events</string>
+    <string name="tj_title">Trade Event Journal</string>
+    <string name="tr_title">Extra Trade Resource</string>
+    <string name="search_descpt">Search For Stocks and Forex with symbols</string>
+    <string name="trade_resources">Trade Resources</string>
+    <string name="get_rate_e_g_aapl_or_gbpusd">Get Stocks e.g GOOGL, GBPUSD</string>
+    <string name="get_pivot_menu">Get Pivot</string>
+    <string name="convert_menu">Convert</string>
+    <string name="currr_sym">symbol</string>
+    <string name="currr_price">price</string>
+    <string name="currr_time">timestamp</string>
+    <string name="json_price">price</string>
+    <string name="Curr_log">Price data fetch</string>
+    <string name="eq_sgn">=</string>
+    <string name="time_series_daily">Time Series (Daily)</string>
+    <string name="meta_data">Meta Data</string>
+    <string name="g_close">4. close</string>
+    <string name="g_open">1. open</string>
+    <string name="g_last_resfresh">3. Last Refreshed</string>
+    <string name="g_symbol">2. Symbol</string>
+    <string name="g_info">1. Information</string>
+    <string name="g_high">2. high</string>
+    <string name="g_low">3. low</string>
+    <string name="g_vol">6. volume</string>
+    <string name="recievin_d_update">Receiving database update</string>
+    <string name="p_fx_daily">Time Series FX (Daily)</string>
+    <string name="p_metadata">Meta Data</string>
+    <string name="p_close">4. close</string>
+    <string name="p_lastrefreshed">5. Last Refreshed</string>
+    <string name="p_open">1. open</string>
+    <string name="p_high">2. high</string>
+    <string name="p_low">3. low</string>
+    <string name="pv_fx_daily">FX_DAILY</string>
+    <string name="month_jan">Jan</string>
+    <string name="Jan_Month">Jan</string>
+    <string name="Feb_Month">Feb</string>
+    <string name="Mar_Month">Mar</string>
+    <string name="Apr_Month">Apr</string>
+    <string name="May_Month">May</string>
+    <string name="Jun_Month">Jun</string>
+    <string name="Jul_Month">Jul</string>
+    <string name="Aug_Month">Aug</string>
+    <string name="Sep_Month">Sep</string>
+    <string name="Oct_Month">Oct</string>
+    <string name="Nov_Month">Nov</string>
+    <string name="Dec_month">Dec</string>
+    <string name="text_mm">mm</string>
+    <string name="lg_price">Price</string>
+    <string name="spinner_all">All</string>
+    <string name="spinner_profit_text">Profit Trades</string>
+    <string name="spinnerlost">Lost Trades</string>
+    <string name="spinner_be">BreakEven</string>
+    <string name="from_textt">From</string>
+    <string name="data_source_alpha">Data Source - AlphaVantage</string>
+    <string name="alpha_vnt">AlphaVantage</string>
+
+
+</resources>

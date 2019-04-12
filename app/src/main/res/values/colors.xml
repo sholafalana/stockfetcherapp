@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorAccent">#BF3C0C</color>
+    <color name="brandcolor">#0F0F0F</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="mettalic_gold">#D4AF37</color>
+
+
+    <color name="myWhite">#FFF</color>
+    <color name="deep_red">#fc0303</color>
+    <color name="light_red">#fc6262</color>
+    <color name="lighest_red">#fcbaba</color>
+    <color name="deep_blue">#3d6cef</color>
+    <color name="lighest_green">#caf0ab</color>
+    <color name="medium_green">#73e761</color>
+    <color name="deep_green">#14ca04</color>
+
+
+    <color name="materialRed">#E74C3C</color>
+    <color name="materialOrange">#E67E22</color>
+    <color name="materialYellow">#F1C40F</color>
+    <color name="creamy_white">#bebcbc</color>
+
+
+    <string name="colorString1">#323232</string>
+</resources>

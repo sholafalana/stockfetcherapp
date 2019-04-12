@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brandcolor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UI.HomePageActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/search_layout"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/stock_search_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/creamy_white"
+            android:textColor="@color/brandcolor"
+            android:inputType="textCapCharacters"
+            android:hint="@string/get_rate_e_g_aapl_or_gbpusd"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_margin="8dp"
+            android:paddingBottom="@dimen/activity_horizontal_margin" />
+
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:textColor="@color/brandcolor"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_menu_search"
+            android:contentDescription="@string/search_descpt"
+            android:layout_margin="3dp"
+            android:text="@string/trading_resources" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/scrol_layout"
+        android:layout_below="@id/search_layout"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/brandcolor"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/mettalic_gold"
+                    android:text="@string/sub_title"
+                    android:textStyle="italic"
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:id="@+id/market_rate"
+                    style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/brandcolor"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/live_market_rate" />
+
+                <Button
+                    android:id="@+id/pivot_generator"
+                    style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/brandcolor"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/generate_pivot" />
+
+                <Button
+                    android:id="@+id/convert_curr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:textColor="@color/brandcolor"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/currency_converter" />
+
+                <Button
+                    android:id="@+id/trade_journal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:textColor="@color/brandcolor"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/trade_journal" />
+
+                <Button
+                    android:id="@+id/trade_resource"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+                    android:textColor="@color/brandcolor"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/trading_resources" />
+
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

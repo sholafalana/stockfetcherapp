@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Live_rate"
+        android:title="@string/live_market_rate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pivot_gen"
+        android:title="@string/generate_pivot"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/curr_conv"
+        android:title="@string/currency_converter"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/trade_journal"
+        android:title="@string/trade_journal"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/trade_resources"
+        android:title="@string/trade_resources"
+        app:showAsAction="never" />
+
+
+</menu>

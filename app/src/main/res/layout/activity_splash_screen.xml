@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    android:orientation="vertical"
+    tools:context="com.dexertencreatives.stockfetcherapp.UI.SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_trending_up_amber_a700_36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:id="@+id/fullscreen_content"
+        android:contentDescription="@string/welcome_message" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_and_forex_fetcher"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="20dp"
+        android:textStyle="italic"
+        android:textAlignment="center" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "462759067918",
+    "firebase_url": "https://stockfetcherapp.firebaseio.com",
+    "project_id": "stockfetcherapp",
+    "storage_bucket": "stockfetcherapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462759067918:android:ca775c951fadff71",
+        "android_client_info": {
+          "package_name": "com.dexertencreatives.stockfetcherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462759067918-cbr24ipc8sbh9hj6pv8cqk08e997g5a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEfYu8VHXiyhYP9BEwyIqaWb1V0UUPRaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462759067918-cbr24ipc8sbh9hj6pv8cqk08e997g5a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
