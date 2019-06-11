@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 
 import com.dexertencreatives.stockfetcherapp.R;
-import com.google.firebase.analytics.FirebaseAnalytics;
+// import com.google.firebase.analytics.FirebaseAnalytics;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,24 +34,24 @@ public class HomePageActivity extends AppCompatActivity {
     @BindView(R.id.search_button)
     ImageButton SearchButton;
 
-    private FirebaseAnalytics firebaseAnalytics;
+    // private FirebaseAnalytics firebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
         ButterKnife.bind(this);
-        firebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        // firebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         btMarketRate.setOnClickListener(v -> {
             Intent CurrDetailIntent = new Intent(v.getContext(), CurrencyDisplayActivity.class);
             startActivity(CurrDetailIntent);
-            Bundle bundle = new Bundle();
+          /*  Bundle bundle = new Bundle();
 
             bundle.putString(FirebaseAnalytics.Param.ITEM_ID, getString(R.string.button_one));
             bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, getString(R.string.Curr_display));
             bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, getString(R.string.Button_click));
-            firebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+            firebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);  */
 
 
         });
